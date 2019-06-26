@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Aplikasi Sistem Informasi Barang & Jasa",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "image/as.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "name": "Sistem Informasi Barang & Jasa",
+  "short_name": "SIBJ",
+  "start_url": "/aplikasiw/sibj.v2/index.html"
+}
