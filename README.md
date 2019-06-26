@@ -1,4 +1,4 @@
-# sibj
+# SIBJ
 Simple WebApp
 
 > Index1 (index.html)
