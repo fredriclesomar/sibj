@@ -5,20 +5,17 @@ Simple WebApp
   <img src="https://raw.githubusercontent.com/fredriclesomar/sibj/master/image/index1_localstorage.png" width="750" title="Tampilan Home">
 </p>
 <b>Index1 without data<b/>
-<br>
+<br/>
 > Index1 (index.html)
   <img src="https://raw.githubusercontent.com/fredriclesomar/sibj/master/image/index1_tambahbarang.png" width="750" title="Tambah data">
 </p>
 <b>Index1, tambah barang form<b/>
-
-<br>
+<br/>
 > index1 (index.html)
   <img src="https://raw.githubusercontent.com/fredriclesomar/sibj/master/image/index1_daftarbarang.png" width="750" title="Tampilan Home(Daftar Barang)">
 </p>
 <b>Index1 with daftar_data localstorage<b/>
-
-<br>
-
+<br/>
 > Index2 (indexlayanan.html)
   <img src="https://raw.githubusercontent.com/fredriclesomar/sibj/master/image/index2_daftarlayanan.png" width="750" title="Tampilan Databases">
 </p>
