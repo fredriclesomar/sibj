@@ -18,7 +18,7 @@ Simple WebApp
 
 
 > index1 (index.html)
-  <img src="https://raw.githubusercontent.com/fredriclesomar/sibj/master/image/index1_editform.png" width="750" title="Tampilan Home(Daftar Barang)">
+  <img src="https://raw.githubusercontent.com/fredriclesomar/sibj/master/image/index1_editform.png" width="750" title="Tampilan Home(Edit)">
 </p>
 <b>Index1,edit form<b/>
 
