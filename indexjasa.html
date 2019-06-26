@@ -6,6 +6,7 @@
         <script src="files/bootstrap/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="files/bootstrap/css/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<link rel="manifest" href="/aplikasiw/sibj.v2/manifest.json">
 		<style>
 		.footer {
 		position: fixed;
@@ -269,4 +270,20 @@ body {
             }
         }
     </script>
+	<script>
+	
+	if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sibj2-sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+</script>
+</script>
 </html>
