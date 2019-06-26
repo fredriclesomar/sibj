@@ -5,8 +5,7 @@
         <script src="files/js/jquery.min.js"></script>
         <script src="files/bootstrap/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="files/bootstrap/css/bootstrap.min.css">		
-		<meta name="viewport" content="width=device-width, initial-scale=1">	
-        <link rel="manifest" href="manifest.webmanifest"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
 		.footer {
 		position: fixed;
@@ -284,4 +283,20 @@ body {
             }
         }
     </script>
+	
+	<script>
+	
+	if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sibj1-sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+</script>
 </html>
